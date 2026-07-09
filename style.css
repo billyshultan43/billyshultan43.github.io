@@ -12,13 +12,15 @@ body{
 
     justify-content:center;
 
-    align-items:center;
+    align-items:flex-start;
 
     min-height:100vh;
 
     overflow-x:hidden;
 
     position:relative;
+
+    padding:30px 18px;
 
     background:
         radial-gradient(circle at top left,
@@ -552,5 +554,22 @@ h1:hover{
     z-index:-1;
 
     opacity:.35;
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width:768px){
+
+    .card{
+
+        max-width:100%;
+
+        padding:28px 22px;
+
+        border-radius:26px;
+
+    }
 
 }
