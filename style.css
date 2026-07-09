@@ -582,4 +582,17 @@ h1{
     margin:0 auto 6px;
 
 }
+.profile{
+
+    width:100px;
+
+    height:100px;
+
+}
+
+.profile-wrapper{
+
+    margin-bottom:18px;
+
+}
 }
