@@ -12,7 +12,7 @@ body{
 
     justify-content:center;
 
-    align-items:center;
+    align-items:flex-start;
 
     min-height:100vh;
 
@@ -20,7 +20,7 @@ body{
 
     position:relative;
 
-    padding:16px;
+    padding:24px 16px;
 
     background:
         radial-gradient(circle at top left,
@@ -566,7 +566,7 @@ h1:hover{
 
     padding:18px 10px;
 
-    align-items:center;
+    align-items:flex-start;
 
 }
 
@@ -576,7 +576,7 @@ h1:hover{
 
     max-width:360px;
 
-    padding:20px 18px;
+    padding:18px 18px 12px;
 
     border-radius:24px;
 
