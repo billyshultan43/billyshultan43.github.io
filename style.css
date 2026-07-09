@@ -571,5 +571,15 @@ h1:hover{
         border-radius:26px;
 
     }
+h1{
 
+    font-size:18px;
+
+    line-height:1.25;
+
+    max-width:280px;
+
+    margin:0 auto 6px;
+
+}
 }
