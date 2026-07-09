@@ -138,6 +138,7 @@ box-shadow:
     position:relative;
 
     transition:.35s ease;
+    transform: translateY(-40px);
 
 }
 .card::after{
@@ -167,7 +168,7 @@ box-shadow:
 }
 .card:hover{
 
-    transform:translateY(-6px);
+    transform:translateY(-46px);
 
 }
 
@@ -654,5 +655,8 @@ footer{
 
     margin-top:8px;
 
+}
+.card{
+    margin-top: -35px;
 }
 }
