@@ -562,15 +562,27 @@ h1:hover{
 ========================= */
 @media (max-width:768px){
 
-    .card{
+    body{
 
-        max-width:100%;
+    padding:18px 10px;
 
-        padding:20px 18px 14px;
+    align-items:center;
 
-        border-radius:24px;
+}
 
-    }
+ .card{
+
+    width:92%;
+
+    max-width:360px;
+
+    padding:20px 18px;
+
+    border-radius:24px;
+
+    margin:20px auto;
+
+}
 h1{
 
     font-size:18px;
@@ -597,7 +609,7 @@ h1{
 }
 .btn{
 
-    height:44px;
+    height:42px;
 
     font-size:13px;
 
@@ -631,9 +643,10 @@ h1{
 }
 .buttons{
 
-    width:88%;
+    width:82%;
 
     margin:0 auto;
+
     gap:10px;
 
 }
