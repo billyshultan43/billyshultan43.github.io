@@ -566,9 +566,9 @@ h1:hover{
 
         max-width:100%;
 
-        padding:22px 18px;
+        padding:20px 18px 14px;
 
-        border-radius:26px;
+        border-radius:24px;
 
     }
 h1{
@@ -597,7 +597,7 @@ h1{
 }
 .btn{
 
-    height:46px;
+    height:44px;
 
     font-size:13px;
 
@@ -627,6 +627,19 @@ h1{
     font-size:15px;
 
     margin-bottom:4px;
+
+}
+.buttons{
+
+    width:88%;
+
+    margin:0 auto;
+    gap:10px;
+
+}
+footer{
+
+    margin-top:8px;
 
 }
 }
